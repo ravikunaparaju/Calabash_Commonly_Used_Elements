@@ -15,6 +15,14 @@ Android and equivalent IOS Calabash APIs for quick reference
 |Wait|wait_for_element_exists("Element")|wait_for_element_exists("Element")
 
 
+**Calabash IOS core api reference**
+
+http://www.rubydoc.info/gems/calabash-cucumber/Calabash/Cucumber/Core
+
+
+**Calabash Android api reference**
+
+http://www.rubydoc.info/gems/calabash-android/Calabash/Android/Operations
 
 
 
