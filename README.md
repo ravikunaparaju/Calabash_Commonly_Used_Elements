@@ -12,8 +12,9 @@ Android and equivalent IOS Calabash APIs for quick reference
 |Swipe|"swipe :left", "swipe :right", "swipe :up, :offset =>{:x=> 70,:y=>560},force: :strong","swipe :down, :offset =>{:x=> 70,:y=>160},force: :strong|"perform_action("drag_coordinates",0, 1357, 0, 450, 10)","perform_action("drag_coordinates",0, 1357, 0, 450, 10)"|
 |Scroll|"scroll("ScrollView",:up)","scroll("ScrollView",:down)|scroll("ScrollView",:down)"scroll("ScrollView",:up)|
 |Assertions|check_element_exists("Element"), check_element_does_not_exist("Element"), check_view_with_mark_exists("some text")|check_element_exists("Element"), check_element_does_not_exist("Element"), check_view_with_mark_exists("some_text")|
-|Wait|wait_for_element_exists("Element")|wait_for_element_exists("Element")
-
+|Wait|wait_for_element_exists("Element")|wait_for_element_exists("Element")|
+|Map zoom in|pinch(:in)| perform_action("set_map_zoom","in")|
+|Map zoom out|pinch(:out)| perform_action("set_map_zoom","out")|
 
 **Calabash IOS core api reference**
 
